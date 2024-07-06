@@ -1,0 +1,14 @@
+# Presence-Man configuration
+token: ~
+client_id: "1133823892486623344"
+server: "Development-Server"
+update_skin: true
+
+
+# Default presence configuration:
+default_presence:
+  enabled: true
+  state: "Playing {server} on {network}"
+  details: ""
+  large_image_key: "presence-man"
+  large_image_text: "{App.name} - v{App.version}"
