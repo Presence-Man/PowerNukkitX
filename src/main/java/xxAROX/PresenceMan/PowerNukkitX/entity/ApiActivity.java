@@ -36,9 +36,18 @@ public class ApiActivity {
     public Integer party_max_player_count = null;
     public Integer party_player_count = null;
 
+    public ApiActivity(ActivityType type, String state, String details, Long end, String large_icon_key, String large_icon_text) {
+        this.type = type;
+        this.state = state;
+        this.details = details;
+        this.end = end;
+        this.large_icon_key = large_icon_key;
+        this.large_icon_text = large_icon_text;
+    }
+
     public JsonObject serialize(){
         JsonObject json = new JsonObject();
-        json.addProperty("client_id", PresenceMan.client_id);
+        json.addProperty("client_id", client_id);
         json.addProperty("type", type.toString());
         json.addProperty("state", state);
         json.addProperty("details", details);
