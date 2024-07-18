@@ -67,7 +67,7 @@ public final class PerformUpdateTask extends AsyncTask {
         if (latest != null) {
             if (!notified) {
                 PresenceMan.getInstance().getLogger().warning("Your version of Presence-Man is out of date. To avoid issues please update it to the latest version!");
-                PresenceMan.getInstance().getLogger().warning("Download: " + Gateway.getUrl() + "/downloads/nukkit");
+                PresenceMan.getInstance().getLogger().warning("Download: " + Gateway.getUrl() + "/downloads/powernukkitx");
                 notified = true;
             }
         }
