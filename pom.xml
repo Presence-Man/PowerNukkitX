@@ -51,7 +51,7 @@
         <dependency>
             <groupId>com.github.xxAROX</groupId>
             <artifactId>WebRequester</artifactId>
-            <version>latest</version>
+            <version>v1.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
